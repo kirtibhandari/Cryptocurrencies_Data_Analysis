@@ -20,7 +20,7 @@ In order to do the analysis, there are four important stages which were performe
 
     **Initial dataset**
 
-    ![](https://github.com/kirtibhandari/Cryptocurrencies/blob/main/Resources/Resources\initial_dataset.png)
+    ![](https://github.com/kirtibhandari/Cryptocurrencies/blob/main/Resources/initial_dataset.png)
 
     **Dataset after preprocessing**
 
