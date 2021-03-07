@@ -55,7 +55,7 @@ In order to do the analysis, there are four important stages which were performe
 
     Then we combine the relevant columns from predicted clusters and features from our available dataset.
 
-    ![](https://github.com/kirtibhandari/Cryptocurrencies/blob/main/Resources/redicted_clusters.png)
+    ![](https://github.com/kirtibhandari/Cryptocurrencies/blob/main/Resources/predicted_clusters.png)
 
 
 - ### **Visualizing CryptoCurrencies**
