@@ -2,11 +2,11 @@
 
 ## **Overview**
 This project is built to help clients to recommend Cryptocurrencies which could prove profitable to the client.
-Because of the popularity of Cryptocurrencies, it has become costlier  for the new investors. Bu the market is full of many companies which offer different crypto currencies at affordable price. 
+Because of the popularity of Cryptocurrencies, it has become costlier  for the new investors. But the market is full of many companies which offer different crypto currencies at affordable price. 
 
-We have a dataset of cryptocurrencies which we can analyze in any way we want. By using this dataset, we want to discover trends to convince the client to invest in the recommended new currencies.
+We have a dataset of cryptocurrencies which we can analyze in any way we want. By using this dataset, we want to discover trends to convince the client to invest in the recommendeded new currencies.
 
-In this analysis, because we only have input data and no target results. this implies we do not know what results we are expecting. hat is why, here we have used **Unsupervised Machine Learning**. This helps to discover patters or groups in data. To accomplish this, we use available dataset as input data only, process data for an unsupervised model, use clustering and most popular unsupervised **K-means algorithm**. The model is then refined using **Principal Component Analysis** (PCA), to limit the features used for analysis and speed up the model.
+In this analysis, because we only have input data and no target results, this implies we do not know what results we are expecting. That is why, here we have used **Unsupervised Machine Learning**. This helps to discover patterns or groups in data. To accomplish this, we use available dataset as input data only, process data for an unsupervised model, use clustering and most popular unsupervised **K-means algorithm**. The model is then refined using **Principal Component Analysis** (PCA), to limit the features used for analysis and speed up the model.
 
 In order to do the analysis, there are four important stages which were performed:
 
@@ -35,7 +35,7 @@ In order to do the analysis, there are four important stages which were performe
 
     To complete this preprocessing, Cryptocurrencies rows which had at least 1 null value, which were not currently trading, which did not have a working algorithm and which did not have any mined coins were removed. Also, removal of one column, which was not required to create those groups or clusters as it did not provide any important information at this point, was done. This column was stored in a separate DataFrame as its the name of coins being traded, which will be useful at later stage after obtaining the results. 
 
-    Also, there were two columns who were important but in text format and make them usable, they were converted to numeric values so that they can be used for PCA.Also, we had to scale these converted numeric columns.
+    Also, there were two columns who were important but in text format and make them usable, they were converted to numeric values so that they can be used for PCA. Also, we had to scale these converted numeric columns.
 
  - ### **Dimension reduction using PCA**
 
@@ -74,6 +74,6 @@ In order to do the analysis, there are four important stages which were performe
 
 
 ## **Summary**
-From the above scatter plot, we can clearly depict that there are Clusters of coins,, which are divided in 4 different classes to choose from, for Total coins Supplied and Total Coins mined. 
+From the above scatter plot, we can clearly depict that there are Clusters of coins, which are divided in 4 different classes to choose from, for Total coins Supplied and Total Coins mined. 
 
 We are able to find which coins performed better than others and we have cluster of various currencies which can be recommended to the client to convince them to invest into these recommended ones to stand at a profitable position than some of the expensive ones in the market.
